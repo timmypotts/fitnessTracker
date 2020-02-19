@@ -1,19 +1,24 @@
 {
-  "name": "mongoose_skeleton",
+  "name": "fitnesstracker",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "watch": "nodemon server.js",
-    "seed": "node seeders/seed.js"
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timmypotts/fitnessTracker.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timmypotts/fitnessTracker/issues"
+  },
+  "homepage": "https://github.com/timmypotts/fitnessTracker#readme",
   "dependencies": {
-    "express": "^4.16.3",
-    "mongoose": "^5.3.16",
-    "morgan": "^1.9.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.9.0"
   }
 }
